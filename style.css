@@ -1,0 +1,19 @@
+h3{
+    font-size: 30px !important;
+
+}
+
+canvas{
+    animation-name:joker ;
+    animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes joker {
+    from{
+        box-shadow: 2px 2px 38px black; 
+    }
+
+    to{
+        box-shadow: 2px 2px 38px grey; 
+    }
+}
